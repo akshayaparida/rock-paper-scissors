@@ -1,1 +1,1 @@
-This project given by TheOdinProject.
+This project is given by TheOdinProject.
