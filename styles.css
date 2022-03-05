@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: rgb(214, 218, 217);
+  padding: 20px;
+}
+body {
+  background-color: #ececec;
+}
+
+header > h1 {
+  color: #24272e;
+  text-align: center;
+  font-family: Asap, sans-serif;
+}
+.score-board {
+  margin: 20px auto;
+  width: 250px;
+  color: white;
+  text-align: center;
+  font-size: 46px;
+  padding: 15px 20px;
+  font-family: Asap, sans-serif;
+  position: relative;
+}
+.badge {
+  background: #25a59f;
+  color: white;
+  font-size: 17px;
+  padding: 2px 20px;
+  font-family: Asap, sans-serif;
+}
+#user-label {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  font-size: 20px;
+}
+#computer-label {
+  position: absolute;
+  top: 30px;
+  right: -30px;
+  font-size: 20px;
+}
+#user-score {
+  position: absolute;
+  top: 62px;
+  left: -4px;
+  color: #245f22;
+  font-size: 32px;
+}
+#computer-score {
+  position: absolute;
+  top: 62px;
+  right: 13px;
+  color: #245f22;
+  font-size: 32px;
+}
+.result {
+  font-size: 35px;
+  color: rgb(33, 155, 155);
+  padding-top: 70px;
+}
+.result > p {
+  text-align: center;
+  font-weight: bold;
+  font-family: Asap, sans-serif;
+}
+.choices {
+  margin-top: 20px;
+  text-align: center;
+}
+.choice {
+  border: 4px solid rgb(62, 197, 190);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 10px;
+  display: inline-block;
+  transition: all 0.35 ease;
+}
+.choice > img {
+  width: 40px;
+  height: 40px;
+}
+.choice:hover {
+  cursor: pointer;
+  background: #a3e9ee;
+}
+#action-message {
+  text-align: center;
+  color: rgb(29, 165, 175);
+  font-family: Asap, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.green-glow {
+  border: 4px solid rgb(10, 206, 10);
+  box-shadow: 0 0 10px rgb(9, 209, 9);
+}
+
+.red-glow {
+  border: 4px solid rgb(252, 18, 18);
+  box-shadow: 0 0 10px rgb(255, 9, 9);
+}
+
+.gray-glow {
+  border: 4px solid rgb(253, 253, 253);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
